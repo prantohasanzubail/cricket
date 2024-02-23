@@ -1,0 +1,37 @@
+ 
+
+ .field {
+   border: 10px solid red;
+   position: relative;
+   
+   
+ }
+
+  .field img{
+   transform: rotate(0deg);
+   transform-origin:top  right ;
+   
+  }
+  .field:hover .bat {
+   transform: rotate(-60deg);
+   transition: transform 100ms ;
+ }
+
+ .ball{
+   height: 50px;
+   width: 50px;
+   border-radius: 25px;
+   background-color: red;
+   position: relative ;
+   left: 400px;
+   
+ }
+
+
+ .field:hover .ball {
+   transform: translate(400px);
+   transition: transform 100s   , 1000ms  ;
+ }
+
+
+  
